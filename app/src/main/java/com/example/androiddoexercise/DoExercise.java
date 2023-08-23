@@ -170,7 +170,10 @@ public class DoExercise extends AppCompatActivity {
         cur_pos ++;
         cur_topic = topics.get(cur_pos);
     }
-
+    public static void PreTopic() {
+        cur_pos --;
+        cur_topic = topics.get(cur_pos);
+    }
     // 退出答题时统计信息
     void Statistics() {
 
