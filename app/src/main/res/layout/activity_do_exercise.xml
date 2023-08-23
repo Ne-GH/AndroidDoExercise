@@ -12,20 +12,28 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_margin="20dp"
             android:orientation="vertical"
             android:padding="20dp">
+
             <TextView
                 android:id="@+id/topic_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:minHeight="399dp"
-                android:text="题目:" />
+                android:autoSizeTextType="none"
+                android:includeFontPadding="false"
+                android:maxHeight="300dp"
+                android:minHeight="300dp"
+                android:text="题目:"
+                android:textSize="18sp" />
 
             <Button
                 android:id="@+id/A_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="19dp"
+                android:maxHeight="70dp"
+                android:minHeight="70dp"
                 android:text="A" />
 
             <Button
@@ -33,6 +41,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="19dp"
+                android:maxHeight="70dp"
+                android:minHeight="70dp"
                 android:text="B" />
 
             <Button
@@ -40,6 +50,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="19dp"
+                android:maxHeight="70dp"
+                android:minHeight="70dp"
                 android:text="C" />
 
             <Button
@@ -47,6 +59,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="19dp"
+                android:maxHeight="70dp"
+                android:minHeight="70dp"
                 android:text="D" />
 
             <TextView
@@ -54,14 +68,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="19dp"
-                android:text="答案:" />
+                android:text="答案:"
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/analyze_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="9dp"
-                android:text="解析" />
+                android:text="解析"
+                android:textSize="16sp" />
 
         </LinearLayout>
 
