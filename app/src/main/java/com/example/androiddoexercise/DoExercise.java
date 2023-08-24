@@ -137,6 +137,9 @@ public class DoExercise extends AppCompatActivity {
     }
 
 
+    /*************************************************************************
+     *  点击器,点击的时候触发一次
+     *************************************************************************/
     public void ShowTopic(Topic topic) {
         TextView topic_text = findViewById(R.id.topic_text);
         TextView anaswer_text = findViewById(R.id.answer_text);
